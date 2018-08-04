@@ -154,11 +154,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Python的学习"><a href="#Python的学习" class="headerlink" title="Python的学习"></a>Python的学习</h1><ol>
-<li>列表项</li>
-</ol>
-<hr>
-<p>####1.0 Python基础</p>
+        <p>1.0 Python基础</p>
 <blockquote>
 <p>Python版本的安装<br>Anaconda是一个用于科学计算的Python发行版，支持 Linux, Mac, Windows系统，提供了包管理与环境管理的功能，可以很方便地解决多版本python并存、切换以及各种第三方包安装问题<br>Python3.5版本:<code>https://repo.continuum.io/archive/Anaconda3-5.0.1-Windows-x86_64.exe</code><br>Python2.7版本:<code>https://repo.continuum.io/archive/Anaconda2-5.0.1-Windows-x86_64.exe</code><br>Anaconda安装第三方包:conda install opencv<br>工具:<code>http://www.pythontutor.com/live.html#mode=edit</code></p>
 </blockquote>
@@ -344,7 +340,7 @@ d.discard(&apos;a&apos;) #如果存在就删除
 </code></pre><blockquote>
 <p>注意:<br>可变对象：list,dict.<br>不可变对象有:int,string,float,tuple<br>set以及dic中的key只能存储不可变的对象</p>
 </blockquote>
-<p>####2.0 函数</p>
+<p>2.0 函数</p>
 <blockquote>
 <p>在Python中，定义一个函数要使用def语句，依次写出函数名、括号、括号中的参数和冒号:，然后，在缩进块中编写函数体，函数的返回值用return语句返回</p>
 </blockquote>
@@ -399,7 +395,7 @@ demo(2,name=&quot;小明&quot;,age=23) #调用
 </code></pre><blockquote>
 <p>注意:<br>多个参数组合:必选参数、默认参数、可变参数、命名关键字参数和关键字参数的顺序<br>*args是可变参数，args接收的是一个tuple<br>**kw是关键字参数，kw接收的是一个dict</p>
 </blockquote>
-<p>####3.0 面向对象编程-类<br>类和实例</p>
+<p>3.0 面向对象编程-类<br>类和实例</p>
 <blockquote>
 <p>面向对象最重要的概念就是类（Class）和实例（Instance）,class后面紧接着是类名，即Student，类名通常是大写开头的单词，紧接着是(object)，表示该类是从哪个类继承下来的，通常，如果没有合适的继承类，就使用object类，这是所有类最终都会继承的类</p>
 </blockquote>
@@ -461,8 +457,7 @@ class Student(People):
 if __name__ == &apos;__main__&apos;:
     stu = Student()
     stu.run() #继承父类的方法
-</code></pre><p>####4.0 代码规范以及资源<br>代码规范参考:<code>https://github.com/anjuke/coding-style</code><br>Python试题:<code>https://github.com/taizilongxu/interview_python</code><br>Python实战:<code>https://github.com/bytename/LearnPython</code><br>Python资源:<code>https://github.com/jobbole/awesome-python-cn</code></p>
-<p>####5.0 实战练习<br>1.MySQL,Nginx安装脚本<br>2.注册新浪微博开发者,利用官方API,来获取粉丝信息即可<br>Python API WIKI:<code>https://github.com/michaelliao/sinaweibopy/wiki/OAuth2-HOWTO</code></p>
+</code></pre><p>4.0 代码规范以及资源<br>代码规范参考:<code>https://github.com/anjuke/coding-style</code><br>Python试题:<code>https://github.com/taizilongxu/interview_python</code><br>Python实战:<code>https://github.com/bytename/LearnPython</code><br>Python资源:<code>https://github.com/jobbole/awesome-python-cn</code><br>5.0 实战练习<br>1.MySQL,Nginx安装脚本<br>2.注册新浪微博开发者,利用官方API,来获取粉丝信息即可<br>Python API WIKI:<code>https://github.com/michaelliao/sinaweibopy/wiki/OAuth2-HOWTO</code></p>
 <p>新浪开发者平台:<code>http://open.weibo.com/wiki/%E9%A6%96%E9%A1%B5</code><br>新浪微博API接口:<code>http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI</code></p>
 <blockquote>
 <p>后续前端仅仅根据w3c了解基本标签:<code>http://www.w3school.com.cn/</code><br>用到具体标签可随时查API文档</p>
@@ -475,6 +470,17 @@ if __name__ == &apos;__main__&apos;:
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">python3</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -592,6 +598,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">python3</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
