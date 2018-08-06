@@ -6,23 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>debug_toolbar配置 | Byte的博客</title>
+  <title>Tag: django 上传文件 | Byte的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1.安装pip3  install django-debug-toolbar 2.app配置12345678910INSTALLED_APPS = [    &amp;apos;django.contrib.admin&amp;apos;,    &amp;apos;django.contrib.auth&amp;apos;,    &amp;apos;django.contrib.contenttypes&amp;apos;,    &amp;apo">
-<meta name="keywords" content="django dubug_toolbar">
-<meta property="og:type" content="article">
-<meta property="og:title" content="debug_toolbar配置">
-<meta property="og:url" content="http://yoursite.com/2018/08/06/debug-toolbar配置/index.html">
+  <meta name="description" content="以我们这样的普通人的努力程度，还远没有达到要去拼天赋的地步!">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Byte的博客">
+<meta property="og:url" content="http://yoursite.com/tags/django-上传文件/index.html">
 <meta property="og:site_name" content="Byte的博客">
-<meta property="og:description" content="1.安装pip3  install django-debug-toolbar 2.app配置12345678910INSTALLED_APPS = [    &amp;apos;django.contrib.admin&amp;apos;,    &amp;apos;django.contrib.auth&amp;apos;,    &amp;apos;django.contrib.contenttypes&amp;apos;,    &amp;apo">
+<meta property="og:description" content="以我们这样的普通人的努力程度，还远没有达到要去拼天赋的地步!">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/6ab59ab8gy1ftzs12rm93j211i0hgwfb.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/6ab59ab8gy1ftzs1nfpjwj211l0erjs7.jpg">
-<meta property="og:updated_time" content="2018-08-06T12:49:33.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="debug_toolbar配置">
-<meta name="twitter:description" content="1.安装pip3  install django-debug-toolbar 2.app配置12345678910INSTALLED_APPS = [    &amp;apos;django.contrib.admin&amp;apos;,    &amp;apos;django.contrib.auth&amp;apos;,    &amp;apos;django.contrib.contenttypes&amp;apos;,    &amp;apo">
-<meta name="twitter:image" content="http://ww1.sinaimg.cn/large/6ab59ab8gy1ftzs12rm93j211i0hgwfb.jpg">
+<meta name="twitter:title" content="Byte的博客">
+<meta name="twitter:description" content="以我们这样的普通人的努力程度，还远没有达到要去拼天赋的地步!">
   
   
     <link rel="icon" href="/favicon.png">
@@ -152,154 +147,60 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-debug-toolbar配置" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      debug_toolbar配置
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2018" class="archive-year">2018</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2018/08/04/django上传文件/" class="archive-article-date">
+  	<time datetime="2018-08-04T04:49:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-04</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2018/08/04/django上传文件/">django上传文件</a>
     </h1>
   
 
-        
-        <a href="/2018/08/06/debug-toolbar配置/" class="archive-article-date">
-  	<time datetime="2018-08-06T12:48:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-06</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h3><p><code>pip3  install django-debug-toolbar</code></p>
-<h3 id="2-app配置"><a href="#2-app配置" class="headerlink" title="2.app配置"></a>2.app配置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">INSTALLED_APPS = [</span><br><span class="line">    &apos;django.contrib.admin&apos;,</span><br><span class="line">    &apos;django.contrib.auth&apos;,</span><br><span class="line">    &apos;django.contrib.contenttypes&apos;,</span><br><span class="line">    &apos;django.contrib.sessions&apos;,</span><br><span class="line">    &apos;django.contrib.messages&apos;,</span><br><span class="line">    &apos;django.contrib.staticfiles&apos;,</span><br><span class="line">    &apos;cms.apps.CmsConfig&apos;,</span><br><span class="line">    &apos;debug_toolbar&apos;,  #新增</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<h3 id="3-添加中间件-在最后一行添加"><a href="#3-添加中间件-在最后一行添加" class="headerlink" title="3.添加中间件,在最后一行添加"></a>3.添加中间件,在最后一行添加</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">MIDDLEWARE = [</span><br><span class="line">    &apos;django.middleware.security.SecurityMiddleware&apos;,</span><br><span class="line">    &apos;django.contrib.sessions.middleware.SessionMiddleware&apos;,</span><br><span class="line">    &apos;django.middleware.common.CommonMiddleware&apos;,</span><br><span class="line">    &apos;django.middleware.csrf.CsrfViewMiddleware&apos;,</span><br><span class="line">    &apos;django.contrib.auth.middleware.AuthenticationMiddleware&apos;,</span><br><span class="line">    &apos;django.contrib.messages.middleware.MessageMiddleware&apos;,</span><br><span class="line">    &apos;django.middleware.clickjacking.XFrameOptionsMiddleware&apos;,</span><br><span class="line">    &apos;debug_toolbar.middleware.DebugToolbarMiddleware&apos;,   #新增的debug中间件</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<h3 id="4-运行IP"><a href="#4-运行IP" class="headerlink" title="4.运行IP"></a>4.运行IP</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INTERNAL_IPS = (&apos;127.0.0.1&apos;,)</span><br></pre></td></tr></table></figure>
-<h3 id="5-设置DEbug对象"><a href="#5-设置DEbug对象" class="headerlink" title="5.设置DEbug对象"></a>5.设置DEbug对象</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">DEBUG_TOOLBAR_PANELS = [</span><br><span class="line">    &apos;debug_toolbar.panels.versions.VersionsPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.timer.TimerPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.settings.SettingsPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.headers.HeadersPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.request.RequestPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.sql.SQLPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.staticfiles.StaticFilesPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.templates.TemplatesPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.cache.CachePanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.signals.SignalsPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.logging.LoggingPanel&apos;,</span><br><span class="line">    &apos;debug_toolbar.panels.redirects.RedirectsPanel&apos;,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<h3 id="6-设置jquery走国内"><a href="#6-设置jquery走国内" class="headerlink" title="6.设置jquery走国内"></a>6.设置jquery走国内</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">DEBUG_TOOLBAR_CONFIG = &#123;</span><br><span class="line">    # Toolbar options</span><br><span class="line">    # &apos;INTERCEPT_REDIRECTS&apos;: False,</span><br><span class="line">    &apos;JQUERY_URL&apos;: &apos;//libs.baidu.com/jquery/1.9.1/jquery.min.js&apos;,&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="7-设置url路由"><a href="#7-设置url路由" class="headerlink" title="7 设置url路由"></a>7 设置url路由</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import debug_toolbar</span><br><span class="line">re_path(r&apos;^__debug__/&apos;, include(debug_toolbar.urls)</span><br></pre></td></tr></table></figure>
-<h3 id="8访问页面"><a href="#8访问页面" class="headerlink" title="8访问页面"></a>8访问页面</h3><p><img src="http://ww1.sinaimg.cn/large/6ab59ab8gy1ftzs12rm93j211i0hgwfb.jpg" alt=""></p>
-<p><img src="http://ww1.sinaimg.cn/large/6ab59ab8gy1ftzs1nfpjwj211l0erjs7.jpg" alt=""></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">django dubug_toolbar</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">django 上传文件</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+          
 
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/08/06/debug-toolbar配置/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
   
   
-    <a href="/2018/08/04/django上传文件/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">django上传文件</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -322,9 +223,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
-		isTag: false,
+		isTag: true,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
